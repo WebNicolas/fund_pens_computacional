@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* Esses são os cometarios do CSS */
+/* background-image: linear-gradient(to left top, #cf0a0a, #da4e00, #e07700, #e29c00, #e0bf00, #ddbe00, #d9bd00, #d6bc00, #cf9900, #c27708, #af5714, #973a19); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+body{
+    background-color: rgb(198, 186, 186);
+    /* background-image: url("/gaviões\ da\ fiel.png da\ fiel.png"); */
+    background-image: url("corinthians.png");
+    background-position: top;
+    background-repeat:no-repeat;
+    background-size:calc(0); 
+
+    text-align: justify;
+
+    color: #f6fafa;
+}
+
+header,h1{
+    width: 100vw;
+    height:14vh;
+    background-color: aqua;
+    text-align: end;
+}
+
+menu,ul{
+    width: 100vw;
+    height: 14vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+li{
+
+}
+
+section{
+    width:100 vw;
+    height: auto;
+    background-color: rgb(162, 175, 187);
+}
+footer{
+    width: 100vw;
+    height: 14px;
+    background-color: rgb(255, 160, 255);
+}
+
+p{
+    color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
